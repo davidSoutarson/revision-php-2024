@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.header,
+.bgC_bleux {
+  background-color: rgb(143, 229, 229);
+}
+
+.titre-banner,
+.couleur {
+  color: blue;
+}
+
+.titre-banner,
+.position {
+  display: block;
+  text-align: center;
+}
+
+.conteneur-menu-pricipale {
+  display: block;
+  border: solid 2px rgb(8, 65, 235);
+}
+
+/* mise enforme div.demonstration */
+
+.demonstration {
+  background-color: rgba(31, 97, 75, 0.382);
+  border: solid 2px greenyellow;
+}
+
+.footer,
+.bgC_gris {
+  background-color: rgb(151, 192, 192);
+}
