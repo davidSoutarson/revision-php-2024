@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+  list-style-type: none;
 }
 
 .header,
@@ -29,8 +30,64 @@
 
 .demonstration {
   background-color: rgba(31, 97, 75, 0.382);
-  border: solid 2px greenyellow;
+  border: solid 2px rgba(82, 255, 47, 0.774);
 }
+
+p {
+  margin: 5px 5px 15px 5px;
+}
+
+/* mise enforme p.conseille dans les article*/
+.conseille {
+  background-color: rgba(220, 248, 5, 0.579);
+  padding: 5px;
+  border: solid yellow 2px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+/*bloc modifer pour rendre vible au clik ou survole*/
+.cacher {
+  background-color: blueviolet;
+  display: none;
+}
+
+/* mise enforme genrique tablau */
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: center;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+/* fin tablau */
 
 .footer,
 .bgC_gris {
