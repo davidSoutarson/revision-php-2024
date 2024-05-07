@@ -52,6 +52,11 @@ p {
   margin: 10px;
 }
 
+.rapele {
+  background-color: rgba(43, 114, 114, 0.579);
+  border: solid rgb(0, 68, 255) 2px;
+}
+
 /*bloc modifer pour rendre vible au clik ou survole*/
 .cacher {
   background-color: blueviolet;
